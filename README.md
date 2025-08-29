@@ -108,5 +108,3 @@ Contributions are welcome! Please fork the repo and open a PR with improvements.
 ## 📜 License
 This project is licensed under the MIT License.
 
-yaml
-Copy code
