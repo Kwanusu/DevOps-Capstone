@@ -61,5 +61,4 @@ build-and-push:
             push: true
             tags: |
               docker.io/${{ secrets.DOCKERHUB_USERNAME }}/myflaskapp:latest
-              docker.io/${{ secrets.DOCKERHUB_USERNAME }}/myflaskapp:${{ github.sha }}
-
+              docker.io/${{ secrets.DOCKERHUB_TOKEN }}/myflaskapp:${{ github.sha }}
